@@ -26,7 +26,7 @@ a {
 
 a:hover {
   color: gold;
-  
+
 
 }
 
@@ -43,10 +43,27 @@ h1 {
 
 }
 
-.hrHeader {
+h2 {
+  align-self: baseline;
+  color: black;
+  font-size: 1.8em;
+  padding-top: 10px;
+}
+
+p {
+  align-self: baseline;
+  color: black;
+  font-size: 1.5em;
+}
+
+.hrHeader, .hrFooter {
   border-color: black;
   width: 100%;
   /* margin-top: 1.5vh; */
+}
+
+.hrFooter {
+  margin-top: 50px;
 }
 
 .headerLinks {
@@ -57,9 +74,9 @@ h1 {
 }
 
 .mainContents {
-  background-color: blue;
+
   align-self: baseline;
-  width: 70%;
+  /* width: 70%; */
 }
 
 .sidebarContents {
@@ -69,4 +86,15 @@ h1 {
   width: 12%;
 
   background-color: green;
+}
+
+#aboutDirectLink {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.rightAbout {
+  display: flex;
+  flex-direction: column;;
+  align-items: flex-end;
 }
